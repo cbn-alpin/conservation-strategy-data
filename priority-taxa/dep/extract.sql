@@ -12,8 +12,7 @@ COPY (
         FROM referentiels.reglementation_taxon AS rt 
         WHERE rt.id_reglementation = 'HIE-FOR-PACA'
     )
-    SELECT
-        rt.id_reglementation,
+    SELECT DISTINCT
         RIGHT(rt.id_reglementation, 2) AS territory_code,
         rt.cd_ref AS cd_nom,
         CASE 

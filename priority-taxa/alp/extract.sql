@@ -2,7 +2,7 @@
 -- Usage: psql -h <server-ip> -u <user-name> -d si_cbn -f "./extract.sql" > ./$(date +'%F')_taxa_alp.csv
 
 COPY (
-    SELECT
+    SELECT DISTINCT
         'ALP' AS territory_code,
         rt.cd_ref AS cd_nom,
         CASE 
