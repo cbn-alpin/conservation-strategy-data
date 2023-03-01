@@ -1,8 +1,8 @@
 label	code	area_type	code_parent	surface	meshes_total
 France	FR	COUNTRY	NULL	548863	23060
-Massif Alpin	ALP	MOUNTAINS	FR	40785	1808
-Région AURA	AURA	REG	FR	70797	3078
-Région PACA	PACA	REG	FR	31676	1451
+Massif Alpin	03	MAS	FR	40785	1808
+Région AURA	84	REG	FR	70797	3078
+Région PACA	93	REG	FR	31676	1451
 Département Ain (01)	01	DEP	AURA	5774	291
 Département Drôme (26)	26	DEP	AURA	6553	332
 Département Isère (38)	38	DEP	AURA	7869	383
